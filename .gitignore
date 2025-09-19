@@ -7,3 +7,9 @@
 # Кэш Python
 __pycache__/
 *.pyc
+
+# VS Code настройки
+.vscode/
+
+# macOS системные файлы
+.DS_Store
