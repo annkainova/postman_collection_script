@@ -5,6 +5,8 @@ import os
 import sys
 import subprocess
 from pathlib import Path
+USE_VENV = os.getenv("USE_VENV", "1") == "1"
+
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 VENV_DIR = PROJECT_ROOT / ".venv"
